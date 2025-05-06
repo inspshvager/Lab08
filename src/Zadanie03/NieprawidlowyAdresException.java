@@ -1,4 +1,7 @@
 package Zadanie03;
 
-public class NieprawidlowyAdresException {
+public class NieprawidlowyAdresException extends Exception{
+    public NieprawidlowyAdresException(String message){
+        super(message);
+    }
 }
